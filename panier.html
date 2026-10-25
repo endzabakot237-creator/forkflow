@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panier - fork&flow</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-panier">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+      </a>
+      <button id="toggle-btn" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      <nav id="ulref" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Menu</a>
+        <a href="boisson.html">Boisson</a>
+        <a href="panier.html" class="active">Panier <span id="cart-count">0</span></a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Votre panier</h1>
+      <p>Regardez vos sélections et ajustez les quantités avant de commander.</p>
+    </section>
+
+    <section class="cart-details">
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-summary">
+        <p>Total : <strong id="cart-total">0 FCFA</strong></p>
+        <button id="clear-cart" class="button-secondary">Vider le panier</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <img class="footer-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+        <p>&copy; 2026 fork&flow. Saveurs du Cameroun à portée de clic.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="menu.html">Menu</a>
+          <a href="boisson.html">Boisson</a>
+          <a href="panier.html">Panier</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

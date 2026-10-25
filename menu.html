@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Fork&Flow</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-menu">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+      </a>
+      <button id="toggle-btn" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      <nav id="ulref" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="boisson.html">Boisson</a>
+        <a href="panier.html" class="cart-link">Panier <span id="cart-count">0</span></a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Menu de plats camerounais</h1>
+      <p>Découvrez nos classiques : ndolé, poulet DG, kok, et plus encore.</p>
+    </section>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <img src="images/ndolé.jpg.jpeg" alt="Ndolé" class="product-img"/>
+        <h2>Ndolé</h2>
+        <p>viande de boeuf,poisson fumé,crevettes.</p>
+        <span class="price">3 000 FCFA</span>
+        <button class="add-to-cart" data-name="Ndolé" data-price="3000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/pdg.jpg.jpeg" alt="Poulet DG" class="product-img"/>
+        <h2>Poulet DG</h2>
+        <p>Poulet, légumes et frites de plantain.</p>
+        <span class="price">2500 FCFA</span>
+        <button class="add-to-cart" data-name="Poulet DG" data-price="2500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/kok.jpg.jpeg" alt="kok" class="product-img"/>
+        <h2>Ikok</h2>
+        <p>viande de bœuf,poisson fumé.</p>
+        <span class="price">2 000 FCFA</span>
+        <button class="add-to-cart" data-name="Kok" data-price="2000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/poisson_braisé.jpg.jpeg" alt="Poisson braisé" class="product-img"/>
+        <h2>Poisson braisé</h2>
+        <p>Poisson frais grillé aux épices camerounaises.</p>
+        <span class="price">2500 FCFA</span>
+        <button class="add-to-cart" data-name="Poisson braisé" data-price="2500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/boulettes.jpg.jpeg" alt="Boulettes de viande" class="product-img"/>
+        <h2>Boulettes de viande</h2>
+        <p>boulette de viandes de boeuf.</p>
+        <span class="price">1 500 FCFA</span>
+        <button class="add-to-cart" data-name="Boulettes de viande" data-price="1500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/kok_sucré.jpg.jpeg" alt="Kok sucré" class="product-img"/>
+        <h2>Okok sucré</h2>
+        <span class="price">2000 FCFA</span>
+        <button class="add-to-cart" data-name="Kok sucré" data-price="2000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/ndole_veg.jpg.jpeg" alt="Ndolé végétarien" class="product-img"/>
+        <h2>Ndolé végétarien</h2>
+        <p>Ndolé préparé sans viande.</p>
+        <span class="price">1500 FCFA</span>
+        <button class="add-to-cart" data-name="Ndolé végétarien" data-price="1500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/sauce_gombo.jpg.jpeg" alt="Sauce Gombo" class="product-img"/>
+        <h2>Sauce Gombo</h2>
+        <p>crabe,viande de boeuf,crevette,poisson fumé</p>
+        <span class="price">1500 FCFA</span>
+        <button class="add-to-cart" data-name="Sauce Gombo" data-price="1500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <img src="images/rognons.jpg.jpeg" alt="Spaghetti sauté" class="product-img">
+        <h2>Spaghetti sauté</h2>
+        <p>Spaghetti aux rognons.</p>
+        <span class="price">4500 FCFA</span>
+        <button class="add-to-cart" data-name="Spaghetti sauté" data-price="4500">Ajouter au panier</button>
+      </article>
+    </section>
+
+    <section class="menu-info">
+      <div>
+        <h2>Notre menu</h2>
+        <p>Chaque plat est pensé pour offrir une expérience complète : une base de riz, de plantain ou de légumes, accompagnée de sauces parfumées et d'épices traditionnelles. Nous adaptons également nos recettes pour les commandes de fête ou les repas partagés en famille.</p>
+      </div>
+      <div>
+        <h3>Accompagnements</h3>
+        <ul>
+          <li>frites de plantain</li>
+          <li>baton de manioc</li>
+          <li>miondo</li>
+          <li>couscous manioc</li>
+          <li>couscous mais</li>
+          <li>riz blanc</li>
+          <li>spaghetti</li>
+          <li>manioc</li>
+          <li>plantain vapeur</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <img class="footer-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+        <p>&copy; 2026 fork&flow. Saveurs du Cameroun à portée de clic.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="menu.html">Menu</a>
+          <a href="boisson.html">Boisson</a>
+          <a href="panier.html">Panier</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

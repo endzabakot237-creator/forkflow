@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - fork&flow</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-contact">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+      </a>
+      <button id="toggle-btn" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      <nav id="ulref" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Menu</a>
+        <a href="boisson.html">Boisson</a>
+        <a href="panier.html" class="cart-link">Panier <span id="cart-count">0</span></a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Contactez-nous</h1>
+      <p>Besoin d'aide ou envie de réserver ? Envoyez-nous un message.</p>
+    </section>
+
+    <section class="contact-card">
+      <div class="contact-info">
+        <h2>Informations</h2>
+        <p><strong>Adresse :</strong> Douala, Cameroun</p>
+        <p><strong>Téléphone :</strong> +237 6 12 34 56 78</p>
+        <p><strong>Email :</strong> contact@forkandflow.cm</p>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Merci ! Nous avons reçu votre message.');">
+        <label for="name">Nom</label>
+        <input id="name" type="text" placeholder="Votre nom" required />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Votre email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Votre message"></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <section class="contact-extra">
+      <div>
+        <h2>Horaires</h2>
+        <p>Nous sommes ouverts tous les jours de 10h00 à 22h00. Les commandes en ligne peuvent être passées jusqu'à 21h30.</p>
+      </div>
+      <div>
+        <h2>Réseaux sociaux</h2>
+        <p>Suivez-nous pour découvrir nos offres spéciales : Instagram, Facebook et WhatsApp.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <img class="footer-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+        <p>&copy; 2026 fork&flow. Saveurs du Cameroun à portée de clic.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="menu.html">Menu</a>
+          <a href="boisson.html">Boisson</a>
+          <a href="panier.html">Panier</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

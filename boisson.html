@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boisson - Resto Camerounais</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-boisson">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+      </a>
+      <button id="toggle-btn" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      <nav id="ulref" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Menu</a>
+        <a href="boisson.html" class="active">Boisson</a>
+        <a href="panier.html" class="cart-link">Panier <span id="cart-count">0</span></a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <h1>Boissons camerounaises</h1>
+      <p>Rafraîchissez-vous avec nos jus et boissons locales.</p>
+    </section>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <h2>Jus de bissap</h2>
+        <p>Boisson sucrée à base de fleurs d'hibiscus, idéale fraîche ou glacée.</p>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Jus de bissap" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Jus de gingembre</h2>
+        <p>Gingembre frais, miel et citron pour un goût relevé et désaltérant.</p>
+        <span class="price">1 500 FCFA</span>
+        <button class="add-to-cart" data-name="Jus de gingembre" data-price="1500">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Menthe au lait</h2>
+        <span class="price">2 000 FCFA</span>
+        <button class="add-to-cart" data-name="Menthe au lait" data-price="2000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Castel beer</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Castel beer" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>kadji beer</h2>>
+        <span class="price">1000 FCFA</span>
+        <button class="add-to-cart" data-name="kadji bee" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Booster</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Booster" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Top Ananas</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Top Ananas" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Top pamplemousse</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Top pamplemousse" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Top orange</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Top orange" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Top grenadine</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Top grenadine" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Sprite</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Sprite" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Coca-cola</h2>
+        <span class="price">1 000 FCFA</span>
+        <button class="add-to-cart" data-name="Coca-cola" data-price="1000">Ajouter au panier</button>
+      </article>
+      <article class="product-card">
+        <h2>Jus naturels</h2>
+        <p>ananas,goyave,mangue</p>
+        <span class="price">1500 FCFA</span>
+        <button class="add-to-cart" data-name="jus naturels" data-price="1500">Ajouter au panier</button>
+      </article>
+    </section>
+
+    <section class="drink-info">
+      <div>
+        <h2>Boissons maison</h2>
+        <p>Nos jus sont préparés sur place avec des fruits frais et des épices naturelles. Vous pouvez les déguster seuls ou les associer à nos plats pour une expérience complète.</p>
+      </div>
+      <div>
+        <h3>Nos suggestions</h3>
+        <ul>
+          <li>Bissap glacé avec un filet de citron</li>
+          <li>Gingembre doux au miel</li>
+          <li>Jus naturels onctueux apres un repas</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <img class="footer-logo" src="images/logo.jpg.png" alt="Logo Resto Camerounais" />
+        <p>&copy; 2026 fork&flow. Saveurs du Cameroun à portée de clic.</p>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="menu.html">Menu</a>
+          <a href="boisson.html">Boisson</a>
+          <a href="panier.html">Panier</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
